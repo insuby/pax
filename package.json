@@ -2,9 +2,8 @@
   "name": "pax",
   "version": "1.0.0",
   "engines": {
-    "node": "18.18.2"
+    "node": "18.x"
   },
-  "packageManager": "yarn@4.1.0",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
