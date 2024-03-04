@@ -1,0 +1,14 @@
+node_modules
+.next
+.DS_Store
+.idea
+data
+dist*
+out/*
+.eslintcache
+
+build.zip
+build-*
+build/*
+
+public/*

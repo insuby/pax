@@ -1,0 +1,46 @@
+{
+  "name": "pax",
+  "version": "1.0.0",
+  "engines": {
+    "node": "20.x"
+  },
+  "packageManager": "pnpm@8.15.3",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rimraf ./build.zip && react-scripts build && zip -r build-checklist.zip ./build",
+    "lint": "eslint src --fix && prettier write src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.11",
+    "@mui/material": "^5.15.11",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-input-mask": "^2.0.4",
+    "swiper": "^11.0.7"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "node-sass": "^9.0.0",
+    "prettier": "^3.2.5",
+    "react-scripts": "^5.0.1",
+    "rimraf": "^5.0.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
