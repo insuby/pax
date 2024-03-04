@@ -2,8 +2,9 @@
   "name": "pax",
   "version": "1.0.0",
   "engines": {
-    "node": "18.x"
+    "node": "18.19.1"
   },
+  "packageManager": "yarn@4.1.0",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
@@ -39,6 +40,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "packageManager": "yarn@4.1.0"
+  }
 }
