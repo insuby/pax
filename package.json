@@ -4,8 +4,7 @@
   "packageManager": "pnpm@8.15.3",
   "scripts": {
     "start": "react-scripts start",
-    "build": "rimraf ./build.zip && react-scripts build && zip -r build-checklist.zip ./build",
-    "lint": "eslint src --fix && prettier write src"
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
@@ -25,8 +24,7 @@
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "node-sass": "^9.0.0",
     "prettier": "^3.2.5",
-    "react-scripts": "^5.0.1",
-    "rimraf": "^5.0.5"
+    "react-scripts": "^5.0.1"
   },
   "browserslist": {
     "production": [
